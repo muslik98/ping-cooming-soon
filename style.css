@@ -58,7 +58,7 @@ input:focus {
 }
 
 .emailCheck {
-    display: block;
+    display: none;
     margin: 6px 0 30px 0;
     font-size: 0.9rem;
     color: #ff5263;
