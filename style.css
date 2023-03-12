@@ -99,17 +99,14 @@ footer {
     justify-content: space-around;
 }
 
-.social-media img {
+.social-media svg {
     width: 30px;
 }
 
-.social-media img:hover {
-    background-color: red;
-    color: white;
-}
-
-svg{
-    fill: currentColor;
+svg:hover {
+    border-radius: 50%;
+    background-color: #4f7df3;
+    fill: white;
 }
 
 @media (min-width: 576px) {
