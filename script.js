@@ -15,11 +15,11 @@ notifyButton.addEventListener('click', (e) => {
     } 
 });
 
-// let sosmed = document.querySelectorAll('.social-media img');
+let sosmed = document.querySelectorAll('.social-media img');
 
-// bug hover sosmed
-// Array.from(sosmed).map(function(element) {
-//     element.addEventListener("mouseover", function() {
-//       element.setAttribute("fill", "white");
-//     });
-//   });
+Array.from(sosmed).map(function(element) {
+    element.addEventListener("mouseover", function() {
+      element.setAttribute("fill", "white");
+      console.log(element);
+    });
+  });

@@ -103,10 +103,14 @@ footer {
     width: 30px;
 }
 
-/* bug hover
 .social-media img:hover {
-    background-color: #4f7df3;
-} */
+    background-color: red;
+    color: white;
+}
+
+svg{
+    fill: currentColor;
+}
 
 @media (min-width: 576px) {
 
